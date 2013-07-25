@@ -24,6 +24,7 @@ Vagrant.configure("2") do |config|
     chef.binary_env = "GEM_HOME=/opt/rightscale/sandbox/lib/ruby/gems/1.8 GEM_PATH=/opt/rightscale/sandbox/lib/ruby/gems/1.8"
     chef.binary_path = "/opt/rightscale/sandbox/bin"
 
+    # Attributes can be passed in as a json blob. Hard coded for this example.
     chef.json = {
       :hello_vagrant => {
         :name => "You"

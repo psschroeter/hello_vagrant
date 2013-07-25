@@ -6,7 +6,11 @@ boxes.
 
 # Requirements
 
-To run locally, install the latest vagrant version: http://downloads.vagrantup.com/.
+Ruby >= 1.9.2, Rubygems.  
+
+Oracle VirtualBox: https://www.virtualbox.org/wiki/Downloads
+
+Vagrant, a command line tool for managing VirtualBox: http://downloads.vagrantup.com/.
 Version 1.2.4 was the latest at the time of this tutorial.
 
 # Usage
@@ -22,6 +26,10 @@ Basic usage:
 Ssh in to box:
 
     vagrant ssh
+
+Rerun recipes after editing:
+
+    vagrant provision
 
 # Recipes
 
