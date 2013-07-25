@@ -1,0 +1,55 @@
+{
+  "sources": {
+    "hello_vagrant": {
+      "path": "."
+    },
+    "rightscale": {
+      "locked_version": "13.5.0",
+      "git": "git://github.com/rightscale/rightscale_cookbooks.git",
+      "ref": "9b6855d69fb0847e925c4747129c552c8c7971d8",
+      "rel": "cookbooks/rightscale"
+    },
+    "sys_firewall": {
+      "locked_version": "13.5.0",
+      "git": "git://github.com/rightscale/rightscale_cookbooks.git",
+      "ref": "9b6855d69fb0847e925c4747129c552c8c7971d8",
+      "rel": "cookbooks/sys_firewall"
+    },
+    "sys": {
+      "locked_version": "13.5.0",
+      "git": "git://github.com/rightscale/rightscale_cookbooks.git",
+      "ref": "9b6855d69fb0847e925c4747129c552c8c7971d8",
+      "rel": "cookbooks/sys"
+    },
+    "driveclient": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/rightscale/rackspace_cookbooks.git",
+      "ref": "6cd3908a70c92dcb87d8c48495251b236410e1c6",
+      "rel": "driveclient"
+    },
+    "cloudmonitoring": {
+      "locked_version": "0.1.5",
+      "git": "git://github.com/rightscale/rackspace_cookbooks.git",
+      "ref": "6cd3908a70c92dcb87d8c48495251b236410e1c6",
+      "rel": "cloudmonitoring"
+    },
+    "yum": {
+      "locked_version": "2.2.1",
+      "git": "git://github.com/rightscale/cookbooks.git",
+      "ref": "69648ec4356211acfd4ec754c037a3ef8b302b1a",
+      "rel": "yum"
+    },
+    "apt": {
+      "locked_version": "1.9.3",
+      "git": "git://github.com/rightscale/cookbooks.git",
+      "ref": "69648ec4356211acfd4ec754c037a3ef8b302b1a",
+      "rel": "apt"
+    },
+    "iptables": {
+      "locked_version": "0.9.3",
+      "git": "git://github.com/rightscale/cookbooks.git",
+      "ref": "69648ec4356211acfd4ec754c037a3ef8b302b1a",
+      "rel": "iptables"
+    }
+  }
+}

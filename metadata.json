@@ -1,0 +1,43 @@
+{
+  "recommendations": {
+  },
+  "groupings": {
+  },
+  "providing": {
+  },
+  "suggestions": {
+  },
+  "maintainer": "RightScale",
+  "long_description": "# hello_vagrant cookbook\n\nSimple cookbook that supports using Berkshelf and Vagrant.  Good for verifying\nyour development environment is setup correctly or for validating new vagrant\nboxes.\n\n# Requirements\n\nTo run locally, install the latest vagrant version: http://downloads.vagrantup.com/.\nVersion 1.2.4 was the latest at the time of this tutorial.\n\n# Usage\n\nBasic usage:\n\n    cd hello_vagrant\n    bundle install\n    berks install\n    vagrant plugin install vagrant-berkshelf\n    vagrant up\n\nSsh in to box:\n\n    vagrant ssh\n\n# Recipes\n\nhello_vagrant::default - logs \"Hello, World!\" to chef log.\n\n# Author\n\nAuthor:: Peter Schroeter\n",
+  "version": "0.1.0",
+  "dependencies": {
+  },
+  "name": "hello_vagrant",
+  "attributes": {
+    "hello_vagrant/name": {
+      "display_name": "Name",
+      "required": "optional",
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+
+      ],
+      "calculated": false,
+      "description": "Prints out this name"
+    }
+  },
+  "replacing": {
+  },
+  "recipes": {
+    "hello_vagrant::default": "Prints out hello world"
+  },
+  "license": "All rights reserved",
+  "maintainer_email": "support@rightscale.com",
+  "conflicting": {
+  },
+  "platforms": {
+  },
+  "description": "Installs/configures hello_world cookbook"
+}
