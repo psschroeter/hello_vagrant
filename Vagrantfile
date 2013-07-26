@@ -1,4 +1,3 @@
-require 'berkshelf/vagrant'
 
 Vagrant.configure("2") do |config|
   config.vm.hostname = "hellovagrant"
@@ -19,6 +18,7 @@ Vagrant.configure("2") do |config|
   config.ssh.timeout   = 120
 
   config.vm.provision :chef_solo do |chef|
+    chef.cookbooks_path = "./"
     # Ensure we use same sandbox'd chef that a cloud instance might use. If these
     # two lines are removed the system chef will be used.
     chef.binary_env = "GEM_HOME=/opt/rightscale/sandbox/lib/ruby/gems/1.8 GEM_PATH=/opt/rightscale/sandbox/lib/ruby/gems/1.8"
