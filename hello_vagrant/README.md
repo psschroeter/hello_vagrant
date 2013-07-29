@@ -1,8 +1,11 @@
 # hello_vagrant cookbook
 
-Simple cookbook that supports using Berkshelf and Vagrant.  Good for verifying
+Simple cookbook to show use of Vagrant with Chef.  Good for verifying
 your development environment is setup correctly or for validating new vagrant
 boxes.
+
+See also the "berkshelf" branch for an example integrating RightScale 
+cookbooks with a local cookbook.
 
 # Requirements
 
